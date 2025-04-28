@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        SONARQUBE_SERVER = 'SonarQube'  // ID of SonarQube server configured in Jenkins (Manage Jenkins → Configure)
+        SONARQUBE_SERVER = 'SonarQube'
         DOCKER_IMAGE = 'ayamz/spring-petclinic'
     }
     stages {
