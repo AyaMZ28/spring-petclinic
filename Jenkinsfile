@@ -7,7 +7,9 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/AyaMZ28/spring-petclinic.git'
+                url: 'https://github.com/AyaMZ28/spring-petclinic.git',
+            	branch: 'main',
+           	credentialsId: 'github-credentials'
             }
         }
         stage('Code Analysis') {
