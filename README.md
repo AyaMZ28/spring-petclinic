@@ -13,7 +13,7 @@ This project demonstrates a complete CI/CD pipeline for a Java Spring applicatio
 The goal is to automate the build, test, and deployment process for a Java application using Jenkins, SonarQube, Docker, and Kubernetes. The pipeline includes email notifications and integrates with GitHub and Docker Hub.
 
 > You can use any Java application. In this project, I forked a Spring Boot Java application from GitHub:  
-> `https://github.com/Original-Owner/Original-Repo`  
+> `https://github.com/spring-projects/spring-petclinic.git`  
 > (You can keep your fork URL to preserve the original link structure.)
 
 ---
