@@ -14,7 +14,6 @@ The goal is to automate the build, test, and deployment process for a Java appli
 
 > You can use any Java application. In this project, I forked a Spring Boot Java application from GitHub:  
 > `https://github.com/spring-projects/spring-petclinic.git`  
-> (You can keep your fork URL to preserve the original link structure.)
 
 ---
 
