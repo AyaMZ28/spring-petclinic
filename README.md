@@ -61,6 +61,7 @@ The goal is to automate the build, test, and deployment process for a Java appli
 ```bash
 sudo dnf install git -y
 git --version
+```
 
 #### Maven
 ```bash
